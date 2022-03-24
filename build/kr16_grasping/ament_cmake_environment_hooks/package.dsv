@@ -1,0 +1,4 @@
+source;share/kr16_grasping/local_setup.bash
+source;share/kr16_grasping/local_setup.dsv
+source;share/kr16_grasping/local_setup.sh
+source;share/kr16_grasping/local_setup.zsh

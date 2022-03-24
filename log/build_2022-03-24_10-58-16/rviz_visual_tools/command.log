@@ -1,0 +1,6 @@
+Invoking command in '/home/azizi/kuka_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/rviz_visual_tools
+Invoked command in '/home/azizi/kuka_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/rviz_visual_tools
+Invoking command in '/home/azizi/kuka_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/rviz_visual_tools -- -j4 -l4
+Invoked command in '/home/azizi/kuka_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/rviz_visual_tools -- -j4 -l4
+Invoking command in '/home/azizi/kuka_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/rviz_visual_tools
+Invoked command in '/home/azizi/kuka_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/rviz_visual_tools

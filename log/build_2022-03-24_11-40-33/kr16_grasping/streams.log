@@ -1,0 +1,41 @@
+[0.036s] Invoking command in '/home/azizi/kuka_ws/build/kr16_grasping': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:/opt/ros/galactic LD_LIBRARY_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/azizi/kuka_ws/build/kr16_grasping -- -j4 -l4
+[0.262s] [ 33%] Built target pick_place
+[0.278s] [ 66%] Built target grasping
+[0.295s] [100%] Built target grasp
+[0.313s] Invoked command in '/home/azizi/kuka_ws/build/kr16_grasping' returned '0': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:/opt/ros/galactic LD_LIBRARY_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/azizi/kuka_ws/build/kr16_grasping -- -j4 -l4
+[0.372s] Invoking command in '/home/azizi/kuka_ws/build/kr16_grasping': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:/opt/ros/galactic LD_LIBRARY_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/azizi/kuka_ws/build/kr16_grasping
+[0.386s] -- Install configuration: "Release"
+[0.387s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/src
+[0.387s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/src/dummy_joint_states.cpp
+[0.387s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/src/pick_place.cpp
+[0.388s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/src/grasping.cpp
+[0.388s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/src/test_grasp.cpp
+[0.388s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch
+[0.388s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/grasping_kuka.launch.py
+[0.389s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/state_publisher.launch.py
+[0.389s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/move_group.rviz
+[0.389s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/move_group.launch.py
+[0.389s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/rviz.launch.py
+[0.390s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/pick_place.launch.py
+[0.390s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/model.rviz
+[0.391s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/grasp_kuka.launch.py
+[0.391s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/scripts
+[0.391s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/lib/kr16_grasping/grasping
+[0.398s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/lib/kr16_grasping/pick_place
+[0.408s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/lib/kr16_grasping/grasp
+[0.409s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/ament_index/resource_index/package_run_dependencies/kr16_grasping
+[0.409s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/ament_index/resource_index/parent_prefix_path/kr16_grasping
+[0.409s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/environment/ament_prefix_path.sh
+[0.409s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/environment/ament_prefix_path.dsv
+[0.409s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/environment/path.sh
+[0.409s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/environment/path.dsv
+[0.410s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/local_setup.bash
+[0.410s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/local_setup.sh
+[0.410s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/local_setup.zsh
+[0.410s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/local_setup.dsv
+[0.410s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/package.dsv
+[0.411s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/ament_index/resource_index/packages/kr16_grasping
+[0.411s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/cmake/kr16_graspingConfig.cmake
+[0.411s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/cmake/kr16_graspingConfig-version.cmake
+[0.411s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/package.xml
+[0.412s] Invoked command in '/home/azizi/kuka_ws/build/kr16_grasping' returned '0': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:/opt/ros/galactic LD_LIBRARY_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/azizi/kuka_ws/build/kr16_grasping

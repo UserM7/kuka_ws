@@ -1,0 +1,12 @@
+/home/azizi/kuka_ws/build/kr16_grasping/CMakeFiles/install/strip.dir
+/home/azizi/kuka_ws/build/kr16_grasping/CMakeFiles/install/local.dir
+/home/azizi/kuka_ws/build/kr16_grasping/CMakeFiles/install.dir
+/home/azizi/kuka_ws/build/kr16_grasping/CMakeFiles/list_install_components.dir
+/home/azizi/kuka_ws/build/kr16_grasping/CMakeFiles/rebuild_cache.dir
+/home/azizi/kuka_ws/build/kr16_grasping/CMakeFiles/edit_cache.dir
+/home/azizi/kuka_ws/build/kr16_grasping/CMakeFiles/test.dir
+/home/azizi/kuka_ws/build/kr16_grasping/CMakeFiles/pick_place.dir
+/home/azizi/kuka_ws/build/kr16_grasping/CMakeFiles/grasp.dir
+/home/azizi/kuka_ws/build/kr16_grasping/CMakeFiles/grasping.dir
+/home/azizi/kuka_ws/build/kr16_grasping/CMakeFiles/kr16_grasping_uninstall.dir
+/home/azizi/kuka_ws/build/kr16_grasping/CMakeFiles/uninstall.dir

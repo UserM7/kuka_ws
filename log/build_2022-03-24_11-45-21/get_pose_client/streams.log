@@ -1,0 +1,20 @@
+[0.055s] Invoking command in '/home/azizi/kuka_ws/build/get_pose_client': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/get_pose_client -- -j4 -l4
+[0.211s] Invoked command in '/home/azizi/kuka_ws/build/get_pose_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/get_pose_client -- -j4 -l4
+[0.299s] Invoking command in '/home/azizi/kuka_ws/build/get_pose_client': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/get_pose_client
+[0.356s] -- Install configuration: "Release"
+[0.356s] -- Up-to-date: /home/azizi/kuka_ws/install/get_pose_client/share/ament_index/resource_index/package_run_dependencies/get_pose_client
+[0.357s] -- Up-to-date: /home/azizi/kuka_ws/install/get_pose_client/share/ament_index/resource_index/parent_prefix_path/get_pose_client
+[0.357s] -- Up-to-date: /home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/environment/ament_prefix_path.sh
+[0.358s] -- Up-to-date: /home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/environment/ament_prefix_path.dsv
+[0.358s] -- Up-to-date: /home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/environment/path.sh
+[0.359s] -- Up-to-date: /home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/environment/path.dsv
+[0.359s] -- Up-to-date: /home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/local_setup.bash
+[0.360s] -- Up-to-date: /home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/local_setup.sh
+[0.360s] -- Up-to-date: /home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/local_setup.zsh
+[0.360s] -- Up-to-date: /home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/local_setup.dsv
+[0.361s] -- Installing: /home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/package.dsv
+[0.363s] -- Up-to-date: /home/azizi/kuka_ws/install/get_pose_client/share/ament_index/resource_index/packages/get_pose_client
+[0.363s] -- Up-to-date: /home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/cmake/get_pose_clientConfig.cmake
+[0.364s] -- Up-to-date: /home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/cmake/get_pose_clientConfig-version.cmake
+[0.364s] -- Up-to-date: /home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/package.xml
+[0.425s] Invoked command in '/home/azizi/kuka_ws/build/get_pose_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/get_pose_client

@@ -1,0 +1,4 @@
+Invoking command in '/home/azizi/kuka_ws/build/get_pose_client': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/get_pose_client -- -j4 -l4
+Invoked command in '/home/azizi/kuka_ws/build/get_pose_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/get_pose_client -- -j4 -l4
+Invoking command in '/home/azizi/kuka_ws/build/get_pose_client': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/get_pose_client
+Invoked command in '/home/azizi/kuka_ws/build/get_pose_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/get_pose_client

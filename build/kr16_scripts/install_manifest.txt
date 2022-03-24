@@ -1,0 +1,15 @@
+/home/azizi/kuka_ws/install/kr16_scripts/share/ament_index/resource_index/package_run_dependencies/kr16_scripts
+/home/azizi/kuka_ws/install/kr16_scripts/share/ament_index/resource_index/parent_prefix_path/kr16_scripts
+/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/environment/ament_prefix_path.sh
+/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/environment/ament_prefix_path.dsv
+/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/environment/path.sh
+/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/environment/path.dsv
+/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/local_setup.bash
+/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/local_setup.sh
+/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/local_setup.zsh
+/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/local_setup.dsv
+/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/package.dsv
+/home/azizi/kuka_ws/install/kr16_scripts/share/ament_index/resource_index/packages/kr16_scripts
+/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/cmake/kr16_scriptsConfig.cmake
+/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/cmake/kr16_scriptsConfig-version.cmake
+/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/package.xml

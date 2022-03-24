@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/src/kuka_kr16_moveit_config",
+    "cmake.configureOnOpen": true
+}

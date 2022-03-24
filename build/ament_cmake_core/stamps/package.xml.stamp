@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<package format="3">
+
+  <name>kuka_kr16_moveit_config</name>
+  <version>0.3.0</version>
+  <description>
+     An automatically generated package with all the configuration and launch files for using the kuka_kr16_2 with the MoveIt Motion Planning Framework
+  </description>
+  <author email="Abu_azizii@outlook.com">Iyaan</author>
+  <maintainer email="Abu_azizii@outlook.com">Iyaan</maintainer>
+
+  <license>Apache License 2.0</license>
+  
+
+  <url type="website">http://moveit.ros.org/</url>
+  <url type="bugtracker">https://github.com/ros-planning/moveit/issues</url>
+  <url type="repository">https://github.com/ros-planning/moveit</url>
+
+   <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>kr16_description</exec_depend>
+
+  <export>
+      <build_type>ament_cmake</build_type>
+  </export>
+</package>

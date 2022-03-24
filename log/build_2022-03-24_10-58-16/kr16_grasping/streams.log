@@ -1,0 +1,154 @@
+[0.037s] Invoking command in '/home/azizi/kuka_ws/build/kr16_grasping': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:/opt/ros/galactic LD_LIBRARY_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/azizi/kuka_ws/src/kr16_grasping -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/kr16_grasping
+[0.328s] -- The C compiler identification is GNU 9.4.0
+[0.468s] -- The CXX compiler identification is GNU 9.4.0
+[0.486s] -- Check for working C compiler: /usr/bin/cc
+[0.659s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.662s] -- Detecting C compiler ABI info
+[0.846s] -- Detecting C compiler ABI info - done
+[0.886s] -- Detecting C compile features
+[0.887s] -- Detecting C compile features - done
+[0.895s] -- Check for working CXX compiler: /usr/bin/c++
+[1.071s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.074s] -- Detecting CXX compiler ABI info
+[1.236s] -- Detecting CXX compiler ABI info - done
+[1.275s] -- Detecting CXX compile features
+[1.277s] -- Detecting CXX compile features - done
+[1.287s] -- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+[1.378s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.378s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.810s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.087s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.188s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.579s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[2.918s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[3.112s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.124s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.216s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.221s] -- Looking for pthread.h
+[3.435s] -- Looking for pthread.h - found
+[3.436s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.654s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.655s] -- Looking for pthread_create in pthreads
+[3.821s] -- Looking for pthread_create in pthreads - not found
+[3.822s] -- Looking for pthread_create in pthread
+[4.017s] -- Looking for pthread_create in pthread - found
+[4.020s] -- Found Threads: TRUE  
+[4.499s] -- Found rclcpp_action: 9.2.0 (/opt/ros/galactic/share/rclcpp_action/cmake)
+[4.802s] -- Found moveit_core: 2.3.4 (/opt/ros/galactic/share/moveit_core/cmake)
+[4.912s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[4.971s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[5.197s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[5.750s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[10.692s] -- Found moveit_ros_planning: 2.3.4 (/opt/ros/galactic/share/moveit_ros_planning/cmake)
+[10.702s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+[11.255s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[12.549s] -- Found moveit_ros_planning_interface: 2.3.4 (/opt/ros/galactic/share/moveit_ros_planning_interface/cmake)
+[12.559s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread 
+[13.464s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options 
+[14.304s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread 
+[15.645s] -- Found interactive_markers: 2.2.0 (/opt/ros/galactic/share/interactive_markers/cmake)
+[15.700s] -- Found rviz_visual_tools: 4.1.2 (/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake)
+[15.925s] -- Setting OGRE_DIR to: '/opt/ros/galactic/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[15.931s] -- Found OGRE
+[15.931s] --   static     : OFF
+[15.932s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[15.932s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[15.932s] --   media      : /opt/ros/galactic/opt/rviz_ogre_vendor/share/OGRE/Media
+[15.933s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[15.933s] -- OGRE_LIBRARY_DIRS: /opt/ros/galactic/opt/rviz_ogre_vendor/lib
+[15.933s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[15.933s] -- OGRE_PLUGIN_DIR: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/OGRE
+[15.933s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[15.933s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[15.933s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[15.934s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[15.936s] -- Could not find freeimage library
+[15.971s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[15.981s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[16.142s] -- Found X11: /usr/include   
+[16.143s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[16.294s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[16.295s] -- Looking for gethostbyname
+[16.432s] -- Looking for gethostbyname - found
+[16.433s] -- Looking for connect
+[16.548s] -- Looking for connect - found
+[16.548s] -- Looking for remove
+[16.681s] -- Looking for remove - found
+[16.681s] -- Looking for shmat
+[16.799s] -- Looking for shmat - found
+[16.799s] -- Looking for IceConnectionNumber in ICE
+[16.925s] -- Looking for IceConnectionNumber in ICE - found
+[16.931s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[16.931s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[18.402s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[18.567s] -- Added test 'copyright' to check source files copyright and LICENSE
+[18.583s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.584s] -- Configured cppcheck include dirs: 
+[18.585s] -- Configured cppcheck exclude dirs and/or files: 
+[18.593s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[18.593s] -- Configured cpplint exclude dirs and/or files: 
+[18.596s] -- Added test 'flake8' to check Python code syntax and style conventions
+[18.599s] -- Added test 'lint_cmake' to check CMake code style
+[18.601s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[18.610s] -- Added test 'uncrustify' to check C / C++ code style
+[18.610s] -- Configured uncrustify additional arguments: 
+[18.613s] -- Added test 'xmllint' to check XML markup files
+[18.622s] -- Configuring done
+[18.981s] -- Generating done
+[18.988s] -- Build files have been written to: /home/azizi/kuka_ws/build/kr16_grasping
+[19.020s] Invoked command in '/home/azizi/kuka_ws/build/kr16_grasping' returned '0': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:/opt/ros/galactic LD_LIBRARY_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/azizi/kuka_ws/src/kr16_grasping -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/kr16_grasping
+[19.027s] Invoking command in '/home/azizi/kuka_ws/build/kr16_grasping': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:/opt/ros/galactic LD_LIBRARY_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/azizi/kuka_ws/build/kr16_grasping -- -j4 -l4
+[19.106s] [35m[1mScanning dependencies of target grasping[0m
+[19.109s] [35m[1mScanning dependencies of target grasp[0m
+[19.115s] [35m[1mScanning dependencies of target pick_place[0m
+[19.442s] [ 16%] [32mBuilding CXX object CMakeFiles/grasp.dir/src/test_grasp.cpp.o[0m
+[19.443s] [ 33%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[19.447s] [ 50%] [32mBuilding CXX object CMakeFiles/grasping.dir/src/grasping.cpp.o[0m
+[35.669s] [ 66%] [32m[1mLinking CXX executable pick_place[0m
+[37.177s] [ 66%] Built target pick_place
+[37.482s] [ 83%] [32m[1mLinking CXX executable grasp[0m
+[37.577s] [100%] [32m[1mLinking CXX executable grasping[0m
+[38.704s] [100%] Built target grasp
+[38.770s] [100%] Built target grasping
+[38.790s] Invoked command in '/home/azizi/kuka_ws/build/kr16_grasping' returned '0': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:/opt/ros/galactic LD_LIBRARY_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/azizi/kuka_ws/build/kr16_grasping -- -j4 -l4
+[38.842s] Invoking command in '/home/azizi/kuka_ws/build/kr16_grasping': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:/opt/ros/galactic LD_LIBRARY_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/azizi/kuka_ws/build/kr16_grasping
+[38.860s] -- Install configuration: "Release"
+[38.860s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/src
+[38.861s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/src/dummy_joint_states.cpp
+[38.861s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/src/pick_place.cpp
+[38.861s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/src/grasping.cpp
+[38.862s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/src/test_grasp.cpp
+[38.862s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch
+[38.862s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/grasping_kuka.launch.py
+[38.862s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/state_publisher.launch.py
+[38.862s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/move_group.rviz
+[38.863s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/move_group.launch.py
+[38.863s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/rviz.launch.py
+[38.863s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/pick_place.launch.py
+[38.864s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/model.rviz
+[38.864s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/grasp_kuka.launch.py
+[38.865s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/scripts
+[38.865s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/lib/kr16_grasping/grasping
+[38.867s] -- Set runtime path of "/home/azizi/kuka_ws/install/kr16_grasping/lib/kr16_grasping/grasping" to ""
+[38.867s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/lib/kr16_grasping/pick_place
+[38.867s] -- Set runtime path of "/home/azizi/kuka_ws/install/kr16_grasping/lib/kr16_grasping/pick_place" to ""
+[38.868s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/lib/kr16_grasping/grasp
+[38.868s] -- Set runtime path of "/home/azizi/kuka_ws/install/kr16_grasping/lib/kr16_grasping/grasp" to ""
+[38.868s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/ament_index/resource_index/package_run_dependencies/kr16_grasping
+[38.869s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/ament_index/resource_index/parent_prefix_path/kr16_grasping
+[38.870s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/environment/ament_prefix_path.sh
+[38.870s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/environment/ament_prefix_path.dsv
+[38.871s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/environment/path.sh
+[38.871s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/environment/path.dsv
+[38.871s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/local_setup.bash
+[38.872s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/local_setup.sh
+[38.872s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/local_setup.zsh
+[38.872s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/local_setup.dsv
+[38.873s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/package.dsv
+[38.873s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/ament_index/resource_index/packages/kr16_grasping
+[38.873s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/cmake/kr16_graspingConfig.cmake
+[38.874s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/cmake/kr16_graspingConfig-version.cmake
+[38.874s] -- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/package.xml
+[38.879s] Invoked command in '/home/azizi/kuka_ws/build/kr16_grasping' returned '0': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:/opt/ros/galactic LD_LIBRARY_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/azizi/kuka_ws/build/kr16_grasping

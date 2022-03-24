@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:108 (file):
+  file INSTALL cannot find
+  "/home/azizi/kuka_ws/src/kuka_kr16_moveit_config/rviz": No such file or
+  directory.
+
+

@@ -1,0 +1,6 @@
+Invoking command in '/home/azizi/kuka_ws/build/kr16_scripts': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/kr16_scripts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/kr16_scripts
+Invoked command in '/home/azizi/kuka_ws/build/kr16_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/kr16_scripts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/kr16_scripts
+Invoking command in '/home/azizi/kuka_ws/build/kr16_scripts': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/kr16_scripts -- -j4 -l4
+Invoked command in '/home/azizi/kuka_ws/build/kr16_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/kr16_scripts -- -j4 -l4
+Invoking command in '/home/azizi/kuka_ws/build/kr16_scripts': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/kr16_scripts
+Invoked command in '/home/azizi/kuka_ws/build/kr16_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/kr16_scripts

@@ -1,0 +1,9 @@
+/home/azizi/kuka_ws/build/get_pose_client/CMakeFiles/install/strip.dir
+/home/azizi/kuka_ws/build/get_pose_client/CMakeFiles/install.dir
+/home/azizi/kuka_ws/build/get_pose_client/CMakeFiles/list_install_components.dir
+/home/azizi/kuka_ws/build/get_pose_client/CMakeFiles/rebuild_cache.dir
+/home/azizi/kuka_ws/build/get_pose_client/CMakeFiles/edit_cache.dir
+/home/azizi/kuka_ws/build/get_pose_client/CMakeFiles/test.dir
+/home/azizi/kuka_ws/build/get_pose_client/CMakeFiles/install/local.dir
+/home/azizi/kuka_ws/build/get_pose_client/CMakeFiles/get_pose_client_uninstall.dir
+/home/azizi/kuka_ws/build/get_pose_client/CMakeFiles/uninstall.dir

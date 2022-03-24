@@ -1,0 +1,4 @@
+source;share/kr16_scripts/local_setup.bash
+source;share/kr16_scripts/local_setup.dsv
+source;share/kr16_scripts/local_setup.sh
+source;share/kr16_scripts/local_setup.zsh

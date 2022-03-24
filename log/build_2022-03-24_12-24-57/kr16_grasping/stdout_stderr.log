@@ -1,0 +1,37 @@
+[ 33%] Built target grasp
+[ 66%] Built target grasping
+[100%] Built target pick_place
+-- Install configuration: "Release"
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/src
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/src/dummy_joint_states.cpp
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/src/pick_place.cpp
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/src/grasping.cpp
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/src/test_grasp.cpp
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch
+-- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/grasping_kuka.launch.py
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/state_publisher.launch.py
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/move_group.rviz
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/move_group.launch.py
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/rviz.launch.py
+-- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/pick_place.launch.py
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/model.rviz
+-- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/launch/grasp_kuka.launch.py
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/scripts
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/lib/kr16_grasping/grasping
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/lib/kr16_grasping/pick_place
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/lib/kr16_grasping/grasp
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/ament_index/resource_index/package_run_dependencies/kr16_grasping
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/ament_index/resource_index/parent_prefix_path/kr16_grasping
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/environment/ament_prefix_path.sh
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/environment/path.sh
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/environment/path.dsv
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/local_setup.bash
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/local_setup.sh
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/local_setup.zsh
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/local_setup.dsv
+-- Installing: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/package.dsv
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/ament_index/resource_index/packages/kr16_grasping
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/cmake/kr16_graspingConfig.cmake
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/cmake/kr16_graspingConfig-version.cmake
+-- Up-to-date: /home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/package.xml

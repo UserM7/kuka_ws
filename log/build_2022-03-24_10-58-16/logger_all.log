@@ -1,0 +1,470 @@
+[0.588s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--mixin', 'release']
+[0.589s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4a73b65880>>, merge_install=False, metas=['./colcon.meta'], mixin=['release'], mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4a73b65880>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f4a73b65e50>)
+[0.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.604s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/azizi/kuka_ws'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_pose_client) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_pose_client) by extension 'ignore'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_pose_client) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_pose_client) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_pose_client) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_pose_client) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_pose_client) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_pose_client) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/get_pose_client) by extension 'ros'
+[0.635s] DEBUG:colcon.colcon_core.package_identification:Package 'src/get_pose_client' with type 'ros.ament_cmake' and name 'get_pose_client'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_description) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_description) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_description) by extension 'ignore_ament_install'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_description) by extensions ['colcon_pkg']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_description) by extension 'colcon_pkg'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_description) by extensions ['colcon_meta']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_description) by extension 'colcon_meta'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_description) by extensions ['ros']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_description) by extension 'ros'
+[0.638s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kr16_description' with type 'ros.ament_cmake' and name 'kr16_description'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_grasping) by extensions ['ignore', 'ignore_ament_install']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_grasping) by extension 'ignore'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_grasping) by extension 'ignore_ament_install'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_grasping) by extensions ['colcon_pkg']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_grasping) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_grasping) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_grasping) by extension 'colcon_meta'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_grasping) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_grasping) by extension 'ros'
+[0.641s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kr16_grasping' with type 'ros.ament_cmake' and name 'kr16_grasping'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_scripts) by extension 'ignore'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_scripts) by extension 'ignore_ament_install'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_scripts) by extensions ['colcon_pkg']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_scripts) by extension 'colcon_pkg'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_scripts) by extensions ['colcon_meta']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_scripts) by extension 'colcon_meta'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_scripts) by extensions ['ros']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/kr16_scripts) by extension 'ros'
+[0.643s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kr16_scripts' with type 'ros.ament_cmake' and name 'kr16_scripts'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_kr16_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_kr16_moveit_config) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_kr16_moveit_config) by extension 'ignore_ament_install'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_kr16_moveit_config) by extensions ['colcon_pkg']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_kr16_moveit_config) by extension 'colcon_pkg'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_kr16_moveit_config) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_kr16_moveit_config) by extension 'colcon_meta'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_kr16_moveit_config) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_kr16_moveit_config) by extension 'ros'
+[0.646s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kuka_kr16_moveit_config' with type 'ros.ament_cmake' and name 'kuka_kr16_moveit_config'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz) by extension 'ignore_ament_install'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz) by extensions ['colcon_pkg']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz) by extension 'colcon_meta'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz) by extensions ['ros']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz) by extension 'ros'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz) by extensions ['cmake', 'python']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz) by extension 'cmake'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz) by extension 'python'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz) by extensions ['python_setup_py']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz) by extension 'python_setup_py'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extension 'ros'
+[0.652s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rviz_visual_tools' with type 'ros.ament_cmake' and name 'rviz_visual_tools'
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'cmake_target' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'get_pose_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.705s] DEBUG:colcon.colcon_core.verb:Building package 'get_pose_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azizi/kuka_ws/build/get_pose_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azizi/kuka_ws/install/get_pose_client', 'merge_install': False, 'path': '/home/azizi/kuka_ws/src/get_pose_client', 'symlink_install': False, 'test_result_base': None}
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'kr16_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'kr16_description' build argument 'cmake_target' from command line to 'None'
+[0.706s] Level 5:colcon.colcon_core.verb:set package 'kr16_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'kr16_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'kr16_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'kr16_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'kr16_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'kr16_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.707s] Level 5:colcon.colcon_core.verb:set package 'kr16_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.707s] DEBUG:colcon.colcon_core.verb:Building package 'kr16_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azizi/kuka_ws/build/kr16_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azizi/kuka_ws/install/kr16_description', 'merge_install': False, 'path': '/home/azizi/kuka_ws/src/kr16_description', 'symlink_install': False, 'test_result_base': None}
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'kr16_scripts' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'kr16_scripts' build argument 'cmake_target' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'kr16_scripts' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'kr16_scripts' build argument 'cmake_clean_cache' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'kr16_scripts' build argument 'cmake_clean_first' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'kr16_scripts' build argument 'cmake_force_configure' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'kr16_scripts' build argument 'ament_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'kr16_scripts' build argument 'catkin_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'kr16_scripts' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.708s] DEBUG:colcon.colcon_core.verb:Building package 'kr16_scripts' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azizi/kuka_ws/build/kr16_scripts', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azizi/kuka_ws/install/kr16_scripts', 'merge_install': False, 'path': '/home/azizi/kuka_ws/src/kr16_scripts', 'symlink_install': False, 'test_result_base': None}
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'cmake_target' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.710s] DEBUG:colcon.colcon_core.verb:Building package 'rviz_visual_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azizi/kuka_ws/build/rviz_visual_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azizi/kuka_ws/install/rviz_visual_tools', 'merge_install': False, 'path': '/home/azizi/kuka_ws/src/rviz_visual_tools', 'symlink_install': False, 'test_result_base': None}
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'kr16_grasping' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'kr16_grasping' build argument 'cmake_target' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'kr16_grasping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'kr16_grasping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'kr16_grasping' build argument 'cmake_clean_first' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'kr16_grasping' build argument 'cmake_force_configure' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'kr16_grasping' build argument 'ament_cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'kr16_grasping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.712s] Level 5:colcon.colcon_core.verb:set package 'kr16_grasping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.712s] DEBUG:colcon.colcon_core.verb:Building package 'kr16_grasping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azizi/kuka_ws/build/kr16_grasping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azizi/kuka_ws/install/kr16_grasping', 'merge_install': False, 'path': '/home/azizi/kuka_ws/src/kr16_grasping', 'symlink_install': False, 'test_result_base': None}
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr16_moveit_config' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr16_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr16_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr16_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr16_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr16_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr16_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr16_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.713s] Level 5:colcon.colcon_core.verb:set package 'kuka_kr16_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.713s] DEBUG:colcon.colcon_core.verb:Building package 'kuka_kr16_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/azizi/kuka_ws/build/kuka_kr16_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config', 'merge_install': False, 'path': '/home/azizi/kuka_ws/src/kuka_kr16_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.721s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.726s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.727s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azizi/kuka_ws/src/kr16_description' with build type 'ament_cmake'
+[0.727s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azizi/kuka_ws/src/kr16_description'
+[0.749s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.749s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.749s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.758s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azizi/kuka_ws/src/rviz_visual_tools' with build type 'ament_cmake'
+[0.758s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azizi/kuka_ws/src/rviz_visual_tools'
+[0.760s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.767s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azizi/kuka_ws/src/get_pose_client' with build type 'ament_cmake'
+[0.768s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azizi/kuka_ws/src/get_pose_client'
+[0.770s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.770s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.777s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azizi/kuka_ws/src/kr16_scripts' with build type 'ament_cmake'
+[0.778s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azizi/kuka_ws/src/kr16_scripts'
+[0.779s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.780s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/kr16_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/kr16_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/kr16_description
+[0.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/rviz_visual_tools
+[0.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/get_pose_client': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/get_pose_client -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/get_pose_client
+[0.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/kr16_scripts': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/kr16_scripts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/kr16_scripts
+[3.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/kr16_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/kr16_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/kr16_description
+[3.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/kr16_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/kr16_description -- -j4 -l4
+[4.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/kr16_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/kr16_scripts -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/kr16_scripts
+[4.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/kr16_scripts': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/kr16_scripts -- -j4 -l4
+[4.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/get_pose_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/get_pose_client -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/get_pose_client
+[4.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/get_pose_client': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/get_pose_client -- -j4 -l4
+[4.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/kr16_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/kr16_description -- -j4 -l4
+[4.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/kr16_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/kr16_description
+[4.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/get_pose_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/get_pose_client -- -j4 -l4
+[4.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/kr16_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/kr16_scripts -- -j4 -l4
+[4.337s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kr16_description)
+[4.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/kr16_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/kr16_description
+[4.362s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_description' for CMake module files
+[4.363s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_description' for CMake config files
+[4.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('kr16_description', 'cmake_prefix_path')
+[4.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/kr16_description/share/kr16_description/hook/cmake_prefix_path.ps1'
+[4.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azizi/kuka_ws/install/kr16_description/share/kr16_description/hook/cmake_prefix_path.dsv'
+[4.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/kr16_description/share/kr16_description/hook/cmake_prefix_path.sh'
+[4.373s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_description/bin'
+[4.373s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_description/lib/pkgconfig/kr16_description.pc'
+[4.373s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_description/lib/python3.8/site-packages'
+[4.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_description/share/kr16_description/package.ps1'
+[4.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azizi/kuka_ws/install/kr16_description/share/kr16_description/package.dsv'
+[4.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_description/share/kr16_description/package.sh'
+[4.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_description/share/kr16_description/package.bash'
+[4.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_description/share/kr16_description/package.zsh'
+[4.393s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azizi/kuka_ws/install/kr16_description/share/colcon-core/packages/kr16_description)
+[4.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/kr16_scripts': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/kr16_scripts
+[4.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/get_pose_client': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/get_pose_client
+[4.449s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kr16_description)
+[4.453s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_description' for CMake module files
+[4.459s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_description' for CMake config files
+[4.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('kr16_description', 'cmake_prefix_path')
+[4.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/kr16_description/share/kr16_description/hook/cmake_prefix_path.ps1'
+[4.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azizi/kuka_ws/install/kr16_description/share/kr16_description/hook/cmake_prefix_path.dsv'
+[4.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/kr16_description/share/kr16_description/hook/cmake_prefix_path.sh'
+[4.476s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_description/bin'
+[4.476s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_description/lib/pkgconfig/kr16_description.pc'
+[4.476s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_description/lib/python3.8/site-packages'
+[4.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_description/share/kr16_description/package.ps1'
+[4.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azizi/kuka_ws/install/kr16_description/share/kr16_description/package.dsv'
+[4.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_description/share/kr16_description/package.sh'
+[4.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_description/share/kr16_description/package.bash'
+[4.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_description/share/kr16_description/package.zsh'
+[4.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azizi/kuka_ws/install/kr16_description/share/colcon-core/packages/kr16_description)
+[4.488s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azizi/kuka_ws/src/kuka_kr16_moveit_config' with build type 'ament_cmake'
+[4.488s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azizi/kuka_ws/src/kuka_kr16_moveit_config'
+[4.490s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(get_pose_client)
+[4.516s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/get_pose_client' for CMake module files
+[4.517s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/get_pose_client' for CMake config files
+[4.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/get_pose_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/get_pose_client
+[4.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('get_pose_client', 'cmake_prefix_path')
+[4.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/hook/cmake_prefix_path.ps1'
+[4.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/hook/cmake_prefix_path.dsv'
+[4.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/hook/cmake_prefix_path.sh'
+[4.527s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/get_pose_client/bin'
+[4.528s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/get_pose_client/lib/pkgconfig/get_pose_client.pc'
+[4.528s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/get_pose_client/lib/python3.8/site-packages'
+[4.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/package.ps1'
+[4.531s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/package.dsv'
+[4.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/package.sh'
+[4.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/package.bash'
+[4.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/package.zsh'
+[4.535s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azizi/kuka_ws/install/get_pose_client/share/colcon-core/packages/get_pose_client)
+[4.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kr16_scripts)
+[4.545s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_scripts' for CMake module files
+[4.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/kr16_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/kr16_scripts
+[4.548s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_scripts' for CMake config files
+[4.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('kr16_scripts', 'cmake_prefix_path')
+[4.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/hook/cmake_prefix_path.ps1'
+[4.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/hook/cmake_prefix_path.dsv'
+[4.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/hook/cmake_prefix_path.sh'
+[4.560s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_scripts/bin'
+[4.561s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_scripts/lib/pkgconfig/kr16_scripts.pc'
+[4.561s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_scripts/lib/python3.8/site-packages'
+[4.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/package.ps1'
+[4.564s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/package.dsv'
+[4.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/package.sh'
+[4.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/package.bash'
+[4.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/package.zsh'
+[4.569s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azizi/kuka_ws/install/kr16_scripts/share/colcon-core/packages/kr16_scripts)
+[4.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/kuka_kr16_moveit_config': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/kuka_kr16_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/kuka_kr16_moveit_config
+[4.607s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(get_pose_client)
+[4.610s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/get_pose_client' for CMake module files
+[4.612s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/get_pose_client' for CMake config files
+[4.613s] Level 1:colcon.colcon_core.shell:create_environment_hook('get_pose_client', 'cmake_prefix_path')
+[4.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/hook/cmake_prefix_path.ps1'
+[4.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/hook/cmake_prefix_path.dsv'
+[4.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/hook/cmake_prefix_path.sh'
+[4.620s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/get_pose_client/bin'
+[4.620s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/get_pose_client/lib/pkgconfig/get_pose_client.pc'
+[4.621s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/get_pose_client/lib/python3.8/site-packages'
+[4.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/package.ps1'
+[4.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/package.dsv'
+[4.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/package.sh'
+[4.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/package.bash'
+[4.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/get_pose_client/share/get_pose_client/package.zsh'
+[4.631s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azizi/kuka_ws/install/get_pose_client/share/colcon-core/packages/get_pose_client)
+[4.666s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kr16_scripts)
+[4.669s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_scripts' for CMake module files
+[4.670s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_scripts' for CMake config files
+[4.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('kr16_scripts', 'cmake_prefix_path')
+[4.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/hook/cmake_prefix_path.ps1'
+[4.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/hook/cmake_prefix_path.dsv'
+[4.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/hook/cmake_prefix_path.sh'
+[4.684s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_scripts/bin'
+[4.684s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_scripts/lib/pkgconfig/kr16_scripts.pc'
+[4.685s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_scripts/lib/python3.8/site-packages'
+[4.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/package.ps1'
+[4.688s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/package.dsv'
+[4.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/package.sh'
+[4.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/package.bash'
+[4.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/package.zsh'
+[4.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azizi/kuka_ws/install/kr16_scripts/share/colcon-core/packages/kr16_scripts)
+[6.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/kuka_kr16_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/kuka_kr16_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/kuka_kr16_moveit_config
+[6.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/kuka_kr16_moveit_config': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/kuka_kr16_moveit_config -- -j4 -l4
+[6.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/kuka_kr16_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/kuka_kr16_moveit_config -- -j4 -l4
+[6.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/kuka_kr16_moveit_config': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/kuka_kr16_moveit_config
+[6.518s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_kr16_moveit_config)
+[6.521s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config' for CMake module files
+[6.525s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config' for CMake config files
+[6.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_kr16_moveit_config', 'cmake_prefix_path')
+[6.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/hook/cmake_prefix_path.ps1'
+[6.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/hook/cmake_prefix_path.dsv'
+[6.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/hook/cmake_prefix_path.sh'
+[6.536s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/bin'
+[6.537s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/lib/pkgconfig/kuka_kr16_moveit_config.pc'
+[6.537s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/lib/python3.8/site-packages'
+[6.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/package.ps1'
+[6.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/package.dsv'
+[6.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/package.sh'
+[6.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/kuka_kr16_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/kuka_kr16_moveit_config
+[6.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/package.bash'
+[6.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/package.zsh'
+[6.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/colcon-core/packages/kuka_kr16_moveit_config)
+[6.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_kr16_moveit_config)
+[6.610s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config' for CMake module files
+[6.612s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config' for CMake config files
+[6.613s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_kr16_moveit_config', 'cmake_prefix_path')
+[6.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/hook/cmake_prefix_path.ps1'
+[6.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/hook/cmake_prefix_path.dsv'
+[6.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/hook/cmake_prefix_path.sh'
+[6.619s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/bin'
+[6.619s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/lib/pkgconfig/kuka_kr16_moveit_config.pc'
+[6.619s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/lib/python3.8/site-packages'
+[6.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/package.ps1'
+[6.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/package.dsv'
+[6.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/package.sh'
+[6.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/package.bash'
+[6.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/package.zsh'
+[6.631s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/colcon-core/packages/kuka_kr16_moveit_config)
+[12.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/rviz_visual_tools
+[12.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/rviz_visual_tools -- -j4 -l4
+[95.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/rviz_visual_tools -- -j4 -l4
+[95.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/rviz_visual_tools
+[95.687s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_visual_tools)
+[95.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/rviz_visual_tools
+[95.719s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/rviz_visual_tools' for CMake module files
+[95.722s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/rviz_visual_tools' for CMake config files
+[95.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_visual_tools', 'cmake_prefix_path')
+[95.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/hook/cmake_prefix_path.ps1'
+[95.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/hook/cmake_prefix_path.dsv'
+[95.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/hook/cmake_prefix_path.sh'
+[95.774s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/rviz_visual_tools/lib'
+[95.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_visual_tools', 'ld_library_path_lib')
+[95.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/hook/ld_library_path_lib.ps1'
+[95.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/hook/ld_library_path_lib.dsv'
+[95.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/hook/ld_library_path_lib.sh'
+[95.793s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/rviz_visual_tools/bin'
+[95.793s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/rviz_visual_tools/lib/pkgconfig/rviz_visual_tools.pc'
+[95.795s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/rviz_visual_tools/lib/python3.8/site-packages'
+[95.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.ps1'
+[95.801s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv'
+[95.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.sh'
+[95.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.bash'
+[95.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.zsh'
+[95.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azizi/kuka_ws/install/rviz_visual_tools/share/colcon-core/packages/rviz_visual_tools)
+[95.935s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_visual_tools)
+[95.937s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/rviz_visual_tools' for CMake module files
+[95.939s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/rviz_visual_tools' for CMake config files
+[95.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_visual_tools', 'cmake_prefix_path')
+[95.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/hook/cmake_prefix_path.ps1'
+[95.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/hook/cmake_prefix_path.dsv'
+[95.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/hook/cmake_prefix_path.sh'
+[95.945s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/rviz_visual_tools/lib'
+[95.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_visual_tools', 'ld_library_path_lib')
+[95.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/hook/ld_library_path_lib.ps1'
+[95.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/hook/ld_library_path_lib.dsv'
+[95.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/hook/ld_library_path_lib.sh'
+[95.962s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/rviz_visual_tools/bin'
+[95.962s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/rviz_visual_tools/lib/pkgconfig/rviz_visual_tools.pc'
+[95.962s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/rviz_visual_tools/lib/python3.8/site-packages'
+[95.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.ps1'
+[95.965s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv'
+[95.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.sh'
+[95.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.bash'
+[95.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.zsh'
+[95.970s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azizi/kuka_ws/install/rviz_visual_tools/share/colcon-core/packages/rviz_visual_tools)
+[95.975s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/azizi/kuka_ws/src/kr16_grasping' with build type 'ament_cmake'
+[95.976s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/azizi/kuka_ws/src/kr16_grasping'
+[95.980s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[95.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[96.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/kr16_grasping': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:/opt/ros/galactic LD_LIBRARY_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/azizi/kuka_ws/src/kr16_grasping -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/kr16_grasping
+[115.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/kr16_grasping' returned '0': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:/opt/ros/galactic LD_LIBRARY_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/azizi/kuka_ws/src/kr16_grasping -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/kr16_grasping
+[115.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/kr16_grasping': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:/opt/ros/galactic LD_LIBRARY_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/azizi/kuka_ws/build/kr16_grasping -- -j4 -l4
+[134.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/kr16_grasping' returned '0': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:/opt/ros/galactic LD_LIBRARY_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/azizi/kuka_ws/build/kr16_grasping -- -j4 -l4
+[134.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/azizi/kuka_ws/build/kr16_grasping': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:/opt/ros/galactic LD_LIBRARY_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/azizi/kuka_ws/build/kr16_grasping
+[134.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kr16_grasping)
+[134.867s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_grasping' for CMake module files
+[134.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/azizi/kuka_ws/build/kr16_grasping' returned '0': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools:/opt/ros/galactic LD_LIBRARY_PATH=/home/azizi/kuka_ws/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/azizi/kuka_ws/build/kr16_grasping
+[134.869s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_grasping' for CMake config files
+[134.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('kr16_grasping', 'cmake_prefix_path')
+[134.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/hook/cmake_prefix_path.ps1'
+[134.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/hook/cmake_prefix_path.dsv'
+[134.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/hook/cmake_prefix_path.sh'
+[134.875s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_grasping/lib'
+[134.875s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_grasping/bin'
+[134.875s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_grasping/lib/pkgconfig/kr16_grasping.pc'
+[134.875s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_grasping/lib/python3.8/site-packages'
+[134.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/package.ps1'
+[134.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/package.dsv'
+[134.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/package.sh'
+[134.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/package.bash'
+[134.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/package.zsh'
+[134.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azizi/kuka_ws/install/kr16_grasping/share/colcon-core/packages/kr16_grasping)
+[134.929s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kr16_grasping)
+[134.930s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_grasping' for CMake module files
+[134.931s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_grasping' for CMake config files
+[134.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('kr16_grasping', 'cmake_prefix_path')
+[134.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/hook/cmake_prefix_path.ps1'
+[134.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/hook/cmake_prefix_path.dsv'
+[134.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/hook/cmake_prefix_path.sh'
+[134.935s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_grasping/lib'
+[134.935s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_grasping/bin'
+[134.935s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_grasping/lib/pkgconfig/kr16_grasping.pc'
+[134.935s] Level 1:colcon.colcon_core.environment:checking '/home/azizi/kuka_ws/install/kr16_grasping/lib/python3.8/site-packages'
+[134.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/package.ps1'
+[134.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/package.dsv'
+[134.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/package.sh'
+[134.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/package.bash'
+[134.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/azizi/kuka_ws/install/kr16_grasping/share/kr16_grasping/package.zsh'
+[134.940s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/azizi/kuka_ws/install/kr16_grasping/share/colcon-core/packages/kr16_grasping)
+[134.943s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[134.946s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[134.947s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[134.948s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[135.022s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[135.022s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[135.023s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[135.194s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[135.199s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azizi/kuka_ws/install/local_setup.ps1'
+[135.204s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/azizi/kuka_ws/install/_local_setup_util_ps1.py'
+[135.209s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azizi/kuka_ws/install/setup.ps1'
+[135.213s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azizi/kuka_ws/install/local_setup.sh'
+[135.214s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/azizi/kuka_ws/install/_local_setup_util_sh.py'
+[135.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azizi/kuka_ws/install/setup.sh'
+[135.219s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azizi/kuka_ws/install/local_setup.bash'
+[135.221s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azizi/kuka_ws/install/setup.bash'
+[135.223s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/azizi/kuka_ws/install/local_setup.zsh'
+[135.225s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/azizi/kuka_ws/install/setup.zsh'

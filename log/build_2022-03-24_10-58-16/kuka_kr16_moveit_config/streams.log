@@ -1,0 +1,143 @@
+[0.100s] Invoking command in '/home/azizi/kuka_ws/build/kuka_kr16_moveit_config': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/kuka_kr16_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/kuka_kr16_moveit_config
+[0.304s] -- The C compiler identification is GNU 9.4.0
+[0.469s] -- The CXX compiler identification is GNU 9.4.0
+[0.481s] -- Check for working C compiler: /usr/bin/cc
+[0.631s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.633s] -- Detecting C compiler ABI info
+[0.802s] -- Detecting C compiler ABI info - done
+[0.841s] -- Detecting C compile features
+[0.842s] -- Detecting C compile features - done
+[0.848s] -- Check for working CXX compiler: /usr/bin/c++
+[1.039s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.041s] -- Detecting CXX compiler ABI info
+[1.247s] -- Detecting CXX compiler ABI info - done
+[1.269s] -- Detecting CXX compile features
+[1.270s] -- Detecting CXX compile features - done
+[1.276s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.346s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.347s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.698s] -- Configuring done
+[1.704s] -- Generating done
+[1.706s] -- Build files have been written to: /home/azizi/kuka_ws/build/kuka_kr16_moveit_config
+[1.718s] Invoked command in '/home/azizi/kuka_ws/build/kuka_kr16_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/kuka_kr16_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/kuka_kr16_moveit_config
+[1.721s] Invoking command in '/home/azizi/kuka_ws/build/kuka_kr16_moveit_config': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/kuka_kr16_moveit_config -- -j4 -l4
+[1.842s] Invoked command in '/home/azizi/kuka_ws/build/kuka_kr16_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/kuka_kr16_moveit_config -- -j4 -l4
+[1.905s] Invoking command in '/home/azizi/kuka_ws/build/kuka_kr16_moveit_config': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/kuka_kr16_moveit_config
+[1.955s] -- Install configuration: "Release"
+[1.955s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/ament_index/resource_index/package_run_dependencies/kuka_kr16_moveit_config
+[1.960s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/ament_index/resource_index/parent_prefix_path/kuka_kr16_moveit_config
+[1.961s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/environment/ament_prefix_path.sh
+[1.961s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/environment/ament_prefix_path.dsv
+[1.962s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/environment/path.sh
+[1.966s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/environment/path.dsv
+[1.967s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/local_setup.bash
+[1.967s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/local_setup.sh
+[1.967s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/local_setup.zsh
+[1.968s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/local_setup.dsv
+[1.968s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/package.dsv
+[1.968s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/ament_index/resource_index/packages/kuka_kr16_moveit_config
+[1.968s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/cmake/kuka_kr16_moveit_configConfig.cmake
+[1.969s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/cmake/kuka_kr16_moveit_configConfig-version.cmake
+[1.969s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/package.xml
+[1.969s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch
+[1.969s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/chomp_planning_pipeline.launch.xml
+[1.976s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/ros_control_moveit_controller_manager.launch.xml
+[1.976s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/demo.launch.py
+[1.977s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/kuka_kr16_2_moveit_sensor_manager.launch.xml
+[1.978s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/demo.launch
+[1.978s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/stomp_planning_pipeline.launch.xml
+[1.978s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/move_group.launch
+[1.978s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/trajectory_execution.launch.xml
+[1.982s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/pilz_industrial_motion_planner_planning_pipeline.launch.xml
+[1.983s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/default_warehouse_db.launch
+[1.983s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/run_benchmark_ompl.launch
+[1.983s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/planning_context.launch
+[1.984s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/warehouse_settings.launch.xml
+[1.984s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/gazebo.launch
+[1.984s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/moveit.rviz
+[1.984s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/simple_moveit_controller_manager.launch.xml
+[1.992s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/ros_controllers.launch
+[1.992s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/demo_gazebo.launch
+[1.993s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/planning_pipeline.launch.xml
+[1.993s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/warehouse.launch
+[1.994s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/fake_moveit_controller_manager.launch.xml
+[1.994s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/ompl_planning_pipeline.launch.xml
+[1.995s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/sensor_manager.launch.xml
+[1.995s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/joystick_control.launch
+[1.996s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/ompl-chomp_planning_pipeline.launch.xml
+[1.996s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/moveit_rviz.launch
+[1.996s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/my_planning_execution.launch.py
+[1.997s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config
+[1.997s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/kr16_controllers.yaml
+[1.997s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/initial_positions.yaml
+[1.998s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/sensors_kinect_pointcloud.yaml
+[1.998s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/kr16_ros_controllers.yaml
+[1.998s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/ompl_planning.yaml
+[1.998s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/fake_controllers.yaml
+[1.999s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/joint_limits.yaml
+[1.999s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/stomp_planning.yaml
+[2.000s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/simple_moveit_controllers.yaml
+[2.001s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/sensors_kinect_depthmap.yaml
+[2.002s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/kuka_kr16_2.srdf
+[2.002s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/lerp_planning.yaml
+[2.004s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/gazebo_controllers.yaml
+[2.005s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/chomp_planning.yaml
+[2.006s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/cartesian_limits.yaml
+[2.021s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/sensors_3d.yaml
+[2.022s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/controllers.yaml
+[2.022s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/ros_controllers.yaml
+[2.023s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/kinematics.yaml
+[2.023s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/trajopt_planning.yaml
+[2.023s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config
+[2.023s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/kr16_controllers.yaml
+[2.023s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/initial_positions.yaml
+[2.024s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/sensors_kinect_pointcloud.yaml
+[2.024s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/kr16_ros_controllers.yaml
+[2.024s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/ompl_planning.yaml
+[2.024s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/fake_controllers.yaml
+[2.024s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/joint_limits.yaml
+[2.025s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/stomp_planning.yaml
+[2.025s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/simple_moveit_controllers.yaml
+[2.025s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/sensors_kinect_depthmap.yaml
+[2.025s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/kuka_kr16_2.srdf
+[2.025s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/lerp_planning.yaml
+[2.025s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/gazebo_controllers.yaml
+[2.026s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/chomp_planning.yaml
+[2.026s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/cartesian_limits.yaml
+[2.026s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/sensors_3d.yaml
+[2.026s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/controllers.yaml
+[2.026s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/ros_controllers.yaml
+[2.027s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/kinematics.yaml
+[2.027s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/config/trajopt_planning.yaml
+[2.027s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch
+[2.028s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/chomp_planning_pipeline.launch.xml
+[2.032s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/ros_control_moveit_controller_manager.launch.xml
+[2.033s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/demo.launch.py
+[2.033s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/kuka_kr16_2_moveit_sensor_manager.launch.xml
+[2.033s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/demo.launch
+[2.034s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/stomp_planning_pipeline.launch.xml
+[2.034s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/move_group.launch
+[2.034s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/trajectory_execution.launch.xml
+[2.034s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/pilz_industrial_motion_planner_planning_pipeline.launch.xml
+[2.035s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/default_warehouse_db.launch
+[2.035s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/run_benchmark_ompl.launch
+[2.036s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/planning_context.launch
+[2.037s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/warehouse_settings.launch.xml
+[2.039s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/gazebo.launch
+[2.040s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/moveit.rviz
+[2.041s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/simple_moveit_controller_manager.launch.xml
+[2.042s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/ros_controllers.launch
+[2.043s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/demo_gazebo.launch
+[2.044s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/planning_pipeline.launch.xml
+[2.044s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/warehouse.launch
+[2.045s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/fake_moveit_controller_manager.launch.xml
+[2.046s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/ompl_planning_pipeline.launch.xml
+[2.048s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/sensor_manager.launch.xml
+[2.053s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/joystick_control.launch
+[2.053s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/ompl-chomp_planning_pipeline.launch.xml
+[2.054s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/setup_assistant.launch
+[2.055s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/moveit_rviz.launch
+[2.056s] -- Up-to-date: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/launch/my_planning_execution.launch.py
+[2.057s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/rviz
+[2.058s] -- Installing: /home/azizi/kuka_ws/install/kuka_kr16_moveit_config/share/kuka_kr16_moveit_config/rviz/view_robot.rviz
+[2.059s] Invoked command in '/home/azizi/kuka_ws/build/kuka_kr16_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/azizi/kuka_ws/install/kr16_description:/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/kuka_kr16_moveit_config

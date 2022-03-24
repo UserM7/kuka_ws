@@ -1,0 +1,20 @@
+[0.106s] Invoking command in '/home/azizi/kuka_ws/build/kr16_scripts': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/kr16_scripts -- -j4 -l4
+[0.328s] Invoked command in '/home/azizi/kuka_ws/build/kr16_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/kr16_scripts -- -j4 -l4
+[0.646s] Invoking command in '/home/azizi/kuka_ws/build/kr16_scripts': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/kr16_scripts
+[0.675s] -- Install configuration: "Release"
+[0.675s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_scripts/share/ament_index/resource_index/package_run_dependencies/kr16_scripts
+[0.675s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_scripts/share/ament_index/resource_index/parent_prefix_path/kr16_scripts
+[0.676s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/environment/ament_prefix_path.sh
+[0.677s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/environment/ament_prefix_path.dsv
+[0.677s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/environment/path.sh
+[0.678s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/environment/path.dsv
+[0.678s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/local_setup.bash
+[0.679s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/local_setup.sh
+[0.679s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/local_setup.zsh
+[0.680s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/local_setup.dsv
+[0.681s] -- Installing: /home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/package.dsv
+[0.682s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_scripts/share/ament_index/resource_index/packages/kr16_scripts
+[0.683s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/cmake/kr16_scriptsConfig.cmake
+[0.684s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/cmake/kr16_scriptsConfig-version.cmake
+[0.684s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_scripts/share/kr16_scripts/package.xml
+[0.707s] Invoked command in '/home/azizi/kuka_ws/build/kr16_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/kr16_scripts

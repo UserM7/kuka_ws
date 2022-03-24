@@ -1,0 +1,41 @@
+[0.088s] Invoking command in '/home/azizi/kuka_ws/build/kr16_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/kr16_description -- -j4 -l4
+[0.226s] Invoked command in '/home/azizi/kuka_ws/build/kr16_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/kr16_description -- -j4 -l4
+[0.485s] Invoking command in '/home/azizi/kuka_ws/build/kr16_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/kr16_description
+[0.533s] -- Install configuration: "Release"
+[0.536s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/ament_index/resource_index/package_run_dependencies/kr16_description
+[0.538s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/ament_index/resource_index/parent_prefix_path/kr16_description
+[0.539s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/environment/ament_prefix_path.sh
+[0.539s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/environment/ament_prefix_path.dsv
+[0.540s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/environment/path.sh
+[0.542s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/environment/path.dsv
+[0.543s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/local_setup.bash
+[0.544s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/local_setup.sh
+[0.545s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/local_setup.zsh
+[0.546s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/local_setup.dsv
+[0.548s] -- Installing: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/package.dsv
+[0.551s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/ament_index/resource_index/packages/kr16_description
+[0.551s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/cmake/kr16_descriptionConfig.cmake
+[0.551s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/cmake/kr16_descriptionConfig-version.cmake
+[0.552s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/package.xml
+[0.585s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes
+[0.585s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/collision
+[0.585s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/collision/link_4.stl
+[0.585s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/collision/base_link.stl
+[0.585s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/collision/link_6.stl
+[0.586s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/collision/link_5.stl
+[0.586s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/collision/gripper.stl
+[0.586s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/collision/link_3.stl
+[0.586s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/collision/link_1.stl
+[0.586s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/collision/link_2.stl
+[0.586s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/visual
+[0.587s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/visual/link_3.dae
+[0.587s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/visual/base_link.dae
+[0.587s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/visual/link_2.dae
+[0.587s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/visual/link_4.dae
+[0.587s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/visual/link_6.dae
+[0.588s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/visual/link_5.dae
+[0.588s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/meshes/visual/link_1.dae
+[0.588s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/urdf
+[0.588s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/urdf/initial_positions.yaml
+[0.589s] -- Up-to-date: /home/azizi/kuka_ws/install/kr16_description/share/kr16_description/urdf/kr16.urdf
+[0.678s] Invoked command in '/home/azizi/kuka_ws/build/kr16_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/kr16_description

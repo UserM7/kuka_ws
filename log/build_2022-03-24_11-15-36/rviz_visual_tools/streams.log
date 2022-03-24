@@ -1,0 +1,28 @@
+[0.070s] Invoking command in '/home/azizi/kuka_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/rviz_visual_tools -- -j4 -l4
+[0.283s] [  2%] [34m[1mAutomatic MOC for target gtest_main[0m
+[0.284s] [  5%] [34m[1mAutomatic MOC for target gtest[0m
+[0.286s] [  7%] [34m[1mAutomatic MOC for target rviz_visual_tools_gui[0m
+[0.293s] [ 10%] [34m[1mAutomatic MOC for target rviz_visual_tools_remote_control[0m
+[0.357s] [ 10%] Built target gtest_autogen
+[0.358s] [ 10%] Built target gtest_main_autogen
+[0.393s] [ 10%] Built target rviz_visual_tools_gui_autogen
+[0.442s] [ 10%] Built target rviz_visual_tools_remote_control_autogen
+[0.458s] [ 17%] Built target gtest_main
+[0.473s] [ 25%] Built target gtest
+[0.564s] [ 33%] Built target rviz_visual_tools_remote_control
+[0.614s] [ 46%] Built target rviz_visual_tools_gui
+[0.631s] [ 48%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[0.668s] [ 48%] Built target rviz_visual_tools_autogen
+[0.766s] [ 58%] Built target rviz_visual_tools
+[0.840s] [ 61%] [34m[1mAutomatic MOC for target rviz_visual_tools_demo[0m
+[0.843s] [ 64%] [34m[1mAutomatic MOC for target rviz_visual_tools_rvt_test[0m
+[0.850s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple[0m
+[0.922s] [ 66%] Built target rviz_visual_tools_demo_autogen
+[0.922s] [ 66%] Built target rviz_visual_tools_imarker_simple_autogen
+[0.922s] [ 66%] Built target rviz_visual_tools_rvt_test_autogen
+[1.006s] [ 74%] Built target rviz_visual_tools_imarker_simple
+[1.010s] [ 82%] Built target rviz_visual_tools_demo
+[1.029s] [ 89%] Built target rviz_visual_tools_rvt_test
+[1.043s] [ 92%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo[0m
+[1.072s] [ 92%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[1.152s] [100%] Built target rviz_visual_tools_imarker_simple_demo

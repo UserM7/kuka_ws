@@ -1,0 +1,225 @@
+[0.050s] Invoking command in '/home/azizi/kuka_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/rviz_visual_tools
+[0.639s] -- The C compiler identification is GNU 9.4.0
+[0.937s] -- The CXX compiler identification is GNU 9.4.0
+[0.952s] -- Check for working C compiler: /usr/bin/cc
+[1.293s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.295s] -- Detecting C compiler ABI info
+[1.688s] -- Detecting C compiler ABI info - done
+[1.740s] -- Detecting C compile features
+[1.742s] -- Detecting C compile features - done
+[1.753s] -- Check for working CXX compiler: /usr/bin/c++
+[2.154s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.161s] -- Detecting CXX compiler ABI info
+[2.684s] -- Detecting CXX compiler ABI info - done
+[2.749s] -- Detecting CXX compile features
+[2.749s] -- Detecting CXX compile features - done
+[2.761s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[2.833s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.833s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.225s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[3.519s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.570s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[3.933s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.033s] -- Found FastRTPS: /opt/ros/galactic/include  
+[4.288s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.521s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[4.532s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[4.606s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.609s] -- Looking for pthread.h
+[4.817s] -- Looking for pthread.h - found
+[4.818s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.046s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.048s] -- Looking for pthread_create in pthreads
+[5.198s] -- Looking for pthread_create in pthreads - not found
+[5.199s] -- Looking for pthread_create in pthread
+[5.358s] -- Looking for pthread_create in pthread - found
+[5.361s] -- Found Threads: TRUE  
+[5.916s] -- Found rclcpp_components: 9.2.0 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[6.108s] -- Found rviz_ogre_vendor: 8.5.0 (/opt/ros/galactic/share/rviz_ogre_vendor/cmake)
+[6.109s] -- Setting OGRE_DIR to: '/opt/ros/galactic/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[6.118s] -- Found OGRE
+[6.118s] --   static     : OFF
+[6.118s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[6.118s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.119s] --   media      : /opt/ros/galactic/opt/rviz_ogre_vendor/share/OGRE/Media
+[6.119s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[6.119s] -- OGRE_LIBRARY_DIRS: /opt/ros/galactic/opt/rviz_ogre_vendor/lib
+[6.119s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.119s] -- OGRE_PLUGIN_DIR: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/OGRE
+[6.120s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.120s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.120s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.121s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/galactic/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.124s] -- Could not find freeimage library
+[6.198s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[6.216s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[6.486s] -- Found X11: /usr/include   
+[6.488s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[6.651s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[6.652s] -- Looking for gethostbyname
+[6.812s] -- Looking for gethostbyname - found
+[6.812s] -- Looking for connect
+[6.934s] -- Looking for connect - found
+[6.934s] -- Looking for remove
+[7.122s] -- Looking for remove - found
+[7.123s] -- Looking for shmat
+[7.309s] -- Looking for shmat - found
+[7.310s] -- Looking for IceConnectionNumber in ICE
+[7.478s] -- Looking for IceConnectionNumber in ICE - found
+[7.488s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[7.488s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[7.496s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[7.882s] -- Found shape_msgs: 2.2.4 (/opt/ros/galactic/share/shape_msgs/cmake)
+[8.062s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[8.213s] -- Found trajectory_msgs: 2.2.4 (/opt/ros/galactic/share/trajectory_msgs/cmake)
+[8.370s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[8.376s] -- Found eigen_stl_containers: 1.0.0 (/opt/ros/galactic/share/eigen_stl_containers/cmake)
+[8.388s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[8.395s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[8.405s] -- Found tf2: 0.17.2 (/opt/ros/galactic/share/tf2/cmake)
+[8.429s] -- Found tf2_eigen: 0.17.2 (/opt/ros/galactic/share/tf2_eigen/cmake)
+[9.157s] -- Found tf2_geometry_msgs: 0.17.2 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)
+[9.226s] -- Found pluginlib: 5.0.0 (/opt/ros/galactic/share/pluginlib/cmake)
+[9.264s] -- Found interactive_markers: 2.2.0 (/opt/ros/galactic/share/interactive_markers/cmake)
+[9.311s] -- Found rviz_common: 8.5.0 (/opt/ros/galactic/share/rviz_common/cmake)
+[9.514s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[9.674s] -- Found rviz_default_plugins: 8.5.0 (/opt/ros/galactic/share/rviz_default_plugins/cmake)
+[10.508s] -- Found ament_cmake_gtest: 1.1.5 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+[10.516s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.522s] -- Check if compiler accepts -pthread
+[10.664s] -- Check if compiler accepts -pthread - yes
+[10.799s] -- Configuring done
+[11.296s] -- Generating done
+[11.308s] -- Build files have been written to: /home/azizi/kuka_ws/build/rviz_visual_tools
+[11.340s] Invoked command in '/home/azizi/kuka_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/azizi/kuka_ws/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/azizi/kuka_ws/install/rviz_visual_tools
+[11.346s] Invoking command in '/home/azizi/kuka_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/rviz_visual_tools -- -j4 -l4
+[11.480s] [35m[1mScanning dependencies of target rviz_visual_tools_remote_control_autogen[0m
+[11.482s] [35m[1mScanning dependencies of target gtest_autogen[0m
+[11.488s] [35m[1mScanning dependencies of target gtest_main_autogen[0m
+[11.497s] [35m[1mScanning dependencies of target rviz_visual_tools_gui_autogen[0m
+[11.513s] [  2%] [34m[1mAutomatic MOC for target rviz_visual_tools_remote_control[0m
+[11.537s] [  5%] [34m[1mAutomatic MOC for target rviz_visual_tools_gui[0m
+[11.548s] [  7%] [34m[1mAutomatic MOC for target gtest[0m
+[11.553s] [ 10%] [34m[1mAutomatic MOC for target gtest_main[0m
+[11.636s] [ 10%] Built target rviz_visual_tools_remote_control_autogen
+[11.656s] [ 10%] Built target gtest_autogen
+[11.674s] [35m[1mScanning dependencies of target rviz_visual_tools_remote_control[0m
+[11.675s] [ 10%] Built target gtest_main_autogen
+[11.720s] [35m[1mScanning dependencies of target gtest_main[0m
+[11.727s] [35m[1mScanning dependencies of target gtest[0m
+[11.801s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o[0m
+[11.801s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.o[0m
+[11.876s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[11.882s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[12.337s] [ 23%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/rviz_visual_tools_remote_control_autogen/mocs_compilation.cpp.o[0m
+[12.432s] [ 25%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/src/remote_control.cpp.o[0m
+[12.703s] [ 25%] Built target rviz_visual_tools_gui_autogen
+[12.761s] [35m[1mScanning dependencies of target rviz_visual_tools_gui[0m
+[13.871s] [ 28%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/rviz_visual_tools_gui_autogen/mocs_compilation.cpp.o[0m
+[14.749s] [ 30%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[15.025s] [ 30%] Built target gtest_main
+[15.073s] [ 33%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/rviz_visual_tools_gui.cpp.o[0m
+[29.682s] [ 35%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o[0m
+[36.733s] [ 38%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/remote_control.cpp.o[0m
+[39.564s] [ 41%] [32m[1mLinking CXX static library libgtest.a[0m
+[39.702s] [ 41%] Built target gtest
+[40.262s] [ 43%] [32m[1mLinking CXX shared library librviz_visual_tools_remote_control.so[0m
+[40.833s] [ 43%] Built target rviz_visual_tools_remote_control
+[40.861s] [35m[1mScanning dependencies of target rviz_visual_tools_autogen[0m
+[40.888s] [ 46%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[40.936s] [ 46%] Built target rviz_visual_tools_autogen
+[40.964s] [35m[1mScanning dependencies of target rviz_visual_tools[0m
+[41.343s] [ 48%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/rviz_visual_tools_autogen/mocs_compilation.cpp.o[0m
+[41.431s] [ 51%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/rviz_visual_tools.cpp.o[0m
+[41.488s] [ 53%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/tf_visual_tools.cpp.o[0m
+[59.151s] [ 56%] [32m[1mLinking CXX shared library librviz_visual_tools_gui.so[0m
+[62.252s] [ 56%] Built target rviz_visual_tools_gui
+[75.939s] [ 58%] [32m[1mLinking CXX shared library librviz_visual_tools.so[0m
+[76.257s] [ 58%] Built target rviz_visual_tools
+[76.275s] [35m[1mScanning dependencies of target rviz_visual_tools_demo_autogen[0m
+[76.280s] [35m[1mScanning dependencies of target rviz_visual_tools_imarker_simple_autogen[0m
+[76.280s] [35m[1mScanning dependencies of target rviz_visual_tools_rvt_test_autogen[0m
+[76.292s] [ 61%] [34m[1mAutomatic MOC for target rviz_visual_tools_demo[0m
+[76.303s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple[0m
+[76.303s] [ 66%] [34m[1mAutomatic MOC for target rviz_visual_tools_rvt_test[0m
+[76.328s] [ 66%] Built target rviz_visual_tools_demo_autogen
+[76.338s] [ 66%] Built target rviz_visual_tools_rvt_test_autogen
+[76.346s] [ 66%] Built target rviz_visual_tools_imarker_simple_autogen
+[76.349s] [35m[1mScanning dependencies of target rviz_visual_tools_demo[0m
+[76.364s] [35m[1mScanning dependencies of target rviz_visual_tools_rvt_test[0m
+[76.368s] [35m[1mScanning dependencies of target rviz_visual_tools_imarker_simple[0m
+[76.543s] [ 69%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/rviz_visual_tools_demo_autogen/mocs_compilation.cpp.o[0m
+[76.560s] [ 71%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/rviz_visual_tools_imarker_simple_autogen/mocs_compilation.cpp.o[0m
+[76.590s] [ 74%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/rviz_visual_tools_rvt_test_autogen/mocs_compilation.cpp.o[0m
+[76.596s] [ 76%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/src/rviz_visual_tools_demo.cpp.o[0m
+[76.623s] [ 79%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/tests/rvt_test.cpp.o[0m
+[76.634s] [ 82%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/src/imarker_simple.cpp.o[0m
+[85.097s] [ 84%] [32m[1mLinking CXX shared library librviz_visual_tools_imarker_simple.so[0m
+[85.363s] [ 84%] Built target rviz_visual_tools_imarker_simple
+[85.382s] [35m[1mScanning dependencies of target rviz_visual_tools_imarker_simple_demo_autogen[0m
+[85.400s] [ 87%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo[0m
+[85.435s] [ 87%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[85.456s] [35m[1mScanning dependencies of target rviz_visual_tools_imarker_simple_demo[0m
+[85.613s] [ 89%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/rviz_visual_tools_imarker_simple_demo_autogen/mocs_compilation.cpp.o[0m
+[85.635s] [ 92%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/src/imarker_simple_demo.cpp.o[0m
+[89.589s] [ 94%] [32m[1mLinking CXX executable rviz_visual_tools_demo[0m
+[90.127s] [ 94%] Built target rviz_visual_tools_demo
+[94.109s] [ 97%] [32m[1mLinking CXX executable rviz_visual_tools_rvt_test[0m
+[94.332s] [100%] [32m[1mLinking CXX executable rviz_visual_tools_imarker_simple_demo[0m
+[94.492s] [100%] Built target rviz_visual_tools_rvt_test
+[94.635s] [100%] Built target rviz_visual_tools_imarker_simple_demo
+[94.708s] Invoked command in '/home/azizi/kuka_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/azizi/kuka_ws/build/rviz_visual_tools -- -j4 -l4
+[94.875s] Invoking command in '/home/azizi/kuka_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/rviz_visual_tools
+[94.890s] -- Install configuration: "Release"
+[94.892s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/plugin_description.xml
+[94.893s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/lib/librviz_visual_tools.so
+[94.894s] -- Set runtime path of "/home/azizi/kuka_ws/install/rviz_visual_tools/lib/librviz_visual_tools.so" to ""
+[94.895s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so
+[94.898s] -- Set runtime path of "/home/azizi/kuka_ws/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so" to ""
+[94.898s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so
+[94.900s] -- Set runtime path of "/home/azizi/kuka_ws/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so" to ""
+[94.901s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so
+[94.902s] -- Set runtime path of "/home/azizi/kuka_ws/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so" to ""
+[94.902s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo
+[94.903s] -- Set runtime path of "/home/azizi/kuka_ws/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo" to ""
+[94.903s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo
+[94.904s] -- Set runtime path of "/home/azizi/kuka_ws/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo" to ""
+[94.904s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/include
+[94.905s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/include/rviz_visual_tools
+[94.905s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/include/rviz_visual_tools/key_tool.hpp
+[94.905s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/include/rviz_visual_tools/imarker_simple.hpp
+[94.905s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools_gui.hpp
+[94.906s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp
+[94.906s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/include/rviz_visual_tools/tf_visual_tools.hpp
+[94.906s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/include/rviz_visual_tools/remote_reciever.hpp
+[94.906s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp
+[94.907s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch
+[94.907s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_rviz.launch.py
+[94.907s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo.rviz
+[94.907s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_combined.launch.py
+[94.908s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/rvt_test.launch
+[94.908s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.sh
+[94.909s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.dsv
+[94.910s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/ament_index/resource_index/package_run_dependencies/rviz_visual_tools
+[94.910s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/ament_index/resource_index/parent_prefix_path/rviz_visual_tools
+[94.912s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.sh
+[94.913s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.dsv
+[94.913s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.sh
+[94.913s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.dsv
+[94.914s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.bash
+[94.914s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.sh
+[94.915s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.zsh
+[94.915s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.dsv
+[94.916s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv
+[94.916s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/ament_index/resource_index/packages/rviz_visual_tools
+[94.916s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_visual_tools
+[94.917s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport.cmake
+[94.918s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport-release.cmake
+[94.918s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+[94.918s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[94.919s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+[94.919s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_libraries-extras.cmake
+[94.920s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake
+[94.920s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake
+[94.920s] -- Installing: /home/azizi/kuka_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.xml
+[94.933s] Invoked command in '/home/azizi/kuka_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/azizi/kuka_ws/build/rviz_visual_tools

@@ -1,0 +1,14 @@
+controller_names:
+  - fake_kr16_arm_controller
+fake_arm_controller:
+    joints:
+      - joint_a1
+      - joint_a2
+      - joint_a3
+      - joint_a4
+      - joint_a5
+      - joint_a6
+initial:
+   arm: ready
+   group: kr16_arm
+   pose: ready
